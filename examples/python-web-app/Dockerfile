@@ -24,6 +24,6 @@ COPY . .
 # Expose the application port
 EXPOSE 8000
 
-# Command to run the application within the virtual environment
+# Command to run the application within the virtual environmentt
 ENTRYPOINT ["python3"]
 CMD ["manage.py", "runserver", "0.0.0.0:8000"]
