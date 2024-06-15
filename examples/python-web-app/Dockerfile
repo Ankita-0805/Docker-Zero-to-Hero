@@ -1,5 +1,7 @@
 FROM ubuntu:20.04
 
+#ok
+
 # Update package list and install Python, pip, and virtual environment tools
 RUN apt-get update && \
     apt-get install -y python3 python3-pip python3-venv
